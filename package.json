@@ -1,0 +1,32 @@
+{
+  "name": "weather",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markbrowne/Weather.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/markbrowne/Weather/issues"
+  },
+  "homepage": "https://github.com/markbrowne/Weather#readme",
+  "dependencies": {
+    "dotenv": "^2.0.0",
+    "timediff": "^1.1.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2",
+    "sinon": "^1.17.5",
+    "supertest": "^2.0.0"
+  }
+}
